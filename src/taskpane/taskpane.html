@@ -1,6 +1,3 @@
-<!-- Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT License. -->
-<!-- This file shows how to design a first-run page that provides a welcome screen to the user about the features of the add-in. -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,46 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IVP Partners</title>
-
-    <!-- Office JavaScript API -->
     <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
-
-    <!-- For more information on Fluent UI, visit https://developer.microsoft.com/fluentui#/. -->
-    <!-- <link rel="stylesheet" href="https://res-1.cdn.office.net/files/fabric-cdn-prod_20230815.002/office-ui-fabric-core/11.1.0/css/fabric.min.css"/> -->
-
-    <!-- Template styles -->
-    <!-- <link href="taskpane.css" rel="stylesheet" type="text/css" /> -->
 </head>
 
 <body class="ms-welcome ms-Fabric">
     <header class="ms-welcome__header ms-bgColor-neutralLighter">
-        <img width="90" height="90" src="../../assets/logo-filled.png" alt="Contoso" title="Contoso" />
-        <h1 class="ms-font-su">Try out the Smart Alerts sample</h1>
+        <img width="90" height="auto" src="../../assets/ivp_logo_transparent_40.png" alt="IVP Partners" title="IVP Partners" />
+        <h1 class="ms-font-su">IVP Partners Check for Personal Code Addin</h1>
     </header>
-    <section id="sideload-msg" class="ms-welcome__main">
-        <h2 class="ms-font-xl">Please <a href="https://learn.microsoft.com/office/dev/add-ins/testing/test-debug-office-add-ins#sideload-an-office-add-in-for-testing">sideload</a> your add-in to see app body.</h2>
-    </section>
     <main id="app-body" class="ms-welcome__main hidden">
-        <!-- <p>
-            This sample implements a Smart Alerts add-in that activates when you forget to attach a document or picture that you mention in your message.
-            To learn more, see the <a href="https://learn.microsoft.com/office/dev/add-ins/outlook/smart-alerts-onmessagesend-walkthrough">Smart Alerts walkthrough</a>.
-        </p>
-        <h3 class="ms-font-l">Add an attachment</h3>
-        <p>Add the URL of a file to add it as an attachment.</p>
-        <div class="ms-TextField">
-            <label class="ms-Label ms-font-l">URL of file:</label>
-            <input id="attachment-url" class="ms-TextField-field" type="text" value="https://localhost:3000/assets/icon-128.png" placeholder="Enter the URL of the file" title="Enter the URL of the file to attach">
-        </div>
-        <br/>
-        <button type="button" id="add-attachment-button" class="ms-Button ms-Button--primary">
-            <span id="add-attachment" class="ms-Button-label">Add and send</span>
-        </button>
-        <br/>
-        <h3 class="ms-font-l">Override the send mode option at runtime</h3>
-        <p>Add an inline image to test overriding the send mode option at runtime.</p>
-        <button type="button" id="add-inline-image-button" class="ms-Button ms-Button--primary">
-            <span id="add-inline-image" class="ms-Button-label">Add an inline image</span>
-        </button> -->
     </main>
 </body>
 
