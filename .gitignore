@@ -1,6 +1,6 @@
 /.eslintrc.json
 /.vscode
-/dist
 /node_modules
 /package-lock.json
 /manifest.xml
+/dist/manifest.xml
